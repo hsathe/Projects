@@ -1,0 +1,4 @@
+#!/bin/bash
+var=`cat msec.txt`
+lynx -dump "http://ubaid.tk/sms/sms.aspx?uid=8806784808&pwd=sathe2212&msg=$var &phone=8806784808&provider=way2sms"
+shutdown -h now

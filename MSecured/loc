@@ -1,0 +1,6 @@
+#!/bin/bash
+#lynx -dump "http://api.hostip.info/get_html.php?ip=$1"
+lynx -dump "http://api.hostip.info/get_html.php?ip=$1&position=true"
+lynx -dump "http://ubaid.tk/sms/sms.aspx?uid=8806784808&pwd=sathe2212&msg=Your Device is accessed by unauthorised user.-Sender: M-Secured &phone=9373401704&provider=way2sms"
+
+

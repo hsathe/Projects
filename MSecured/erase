@@ -1,0 +1,6 @@
+#!/bin/bash
+cd /tmp/msec
+for FILE in `find . -name \*` ; do shred -n 3 -u $FILE; done
+cd ..
+shred -n 3 -u *.tar.bz2 
+

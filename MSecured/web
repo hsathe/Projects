@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir /tmp/msec
+mkdir /tmp/msec/pics
+touch /tmp/msec/file{1,2,3}
+streamer -t 5 -r 2 -o /tmp/msec/pics/thief00.jpeg
+
